@@ -20,8 +20,11 @@ async function main() {
     // 컨트랙트가 배포될때까지 대기 합니다.
     await whitelistContract.waitForDeployment();
 
+    const bytecodes = await whitelistContract.getDeployedCode();
+
     // 배포된 컨트랙트의 address를 출력합니다.
     console.log("Whitelist Contract Address:", whitelistContract.target);
+    console.log("bytecode : ", bytecodes);
 
     // 이더스탠이 새로운 컨트랙트의 배포를 인댁스할동안 30초 대기합니다.
     await sleep(30 * 1000); // 30s = 30 * 1000 milliseconds

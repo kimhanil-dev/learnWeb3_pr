@@ -71,3 +71,5 @@ hardhat.config.js의 network 설정
 hardhat.config.js를 통해 다양한 체인에 배포 하면서 느낀점 / 궁금증
 2. 각 체인들의 Scan사이트는 블록체인을 가시화 하고, 각종 클라이언트 프로그램(프로젝트)들과의 중간자 역할을 하는 것 같다 (apiURL을 보고서 느낌) (Scan사이트를 따로 명명하는 방식이 있는지?)
 
+Hardhat에서 제공하는 Configuration Document
+https://hardhat.org/hardhat-runner/docs/config

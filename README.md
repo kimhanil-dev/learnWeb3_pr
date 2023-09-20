@@ -68,7 +68,6 @@ hardhat.config.js의 network 설정
                                 - apiURL : API_KEY를 이용해 질의할 수 있는 해당 체인의 서버 URL을 말한다. https://api.lineascan.build/api
                                 - browserURL : 해당 체인의 브라우저 URL을 말한다 (ex) https://lineascan.build/
 
-hardhat.config.js를 통해 다양한 체인에 배포해보면서 느낀점 / 궁금증
-1. Polygon과 linea 둘다 Ethereum 의 L2이다 보니 이미 Varified되었다고 뜬다(L2체인에 대한 이해 필요). hardhat자체가 ehter관련 framwork라서 ether쪽만 사용가능할 것 같다.
+hardhat.config.js를 통해 다양한 체인에 배포 하면서 느낀점 / 궁금증
 2. 각 체인들의 Scan사이트는 블록체인을 가시화 하고, 각종 클라이언트 프로그램(프로젝트)들과의 중간자 역할을 하는 것 같다 (apiURL을 보고서 느낌) (Scan사이트를 따로 명명하는 방식이 있는지?)
 
